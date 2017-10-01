@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fmendi_countbook.MainActivity">
+
+    <ListView
+        android:id="@+id/counterView"
+        android:layout_width="238dp"
+        android:layout_height="349dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/addView"
+        android:layout_width="87dp"
+        android:layout_height="98dp"
+        android:text="add"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/deleteView"
+        android:layout_width="87dp"
+        android:layout_height="50dp"
+        android:text="delete"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/viewEdit" />
+
+    <EditText
+        android:id="@+id/initialValue"
+        android:layout_width="185dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="23dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="initial value"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@+id/addView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="valueClearOnClick"
+        android:layout_marginBottom="77dp" />
+
+    <EditText
+        android:id="@+id/addCounter"
+        android:layout_width="185dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Counter name"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toRightOf="@+id/addView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="addClearOnClick"
+        android:layout_marginBottom="116dp" />
+
+    <EditText
+        android:id="@+id/commentCounter"
+        android:layout_width="185dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Comments"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintLeft_toRightOf="@+id/addView"
+        android:onClick="commentClearOnClick"
+        android:layout_marginLeft="23dp" />
+
+    <EditText
+        android:id="@+id/selectedCounter"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Select a Counter"
+        android:textSize="14sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewEdit"
+        android:layout_width="87dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:onClick="viewOnClick"
+        android:text="View/Edit"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedCounter" />
+
+</android.support.constraint.ConstraintLayout>

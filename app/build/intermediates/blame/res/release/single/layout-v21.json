@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Fredric\\Downloads\\cmput301\\fmendi-CountBook\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Fredric\\.android\\build-cache\\b2cf28868305deb4aa796122140d8bc0808e39c8\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fredric\\Downloads\\cmput301\\fmendi-CountBook\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Fredric\\.android\\build-cache\\b2cf28868305deb4aa796122140d8bc0808e39c8\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fredric\\Downloads\\cmput301\\fmendi-CountBook\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Fredric\\.android\\build-cache\\b2cf28868305deb4aa796122140d8bc0808e39c8\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Fredric\\Downloads\\cmput301\\fmendi-CountBook\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Fredric\\.android\\build-cache\\b2cf28868305deb4aa796122140d8bc0808e39c8\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
